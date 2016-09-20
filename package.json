@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-clamp",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -20,7 +20,6 @@
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
     "ember-ajax": "0.7.1",
-    "ember-browserify": "1.1.13",
     "ember-cli": "2.4.3",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-dependency-checker": "^1.2.0",
@@ -44,6 +43,8 @@
     "truncation"
   ],
   "dependencies": {
+    "ember-browserify": "1.1.13",
+    "clamp-js": "^0.7.0",
     "ember-cli-babel": "^5.1.6",
     "ember-cli-htmlbars": "^1.0.3",
     "ember-cli-htmlbars-inline-precompile": "^0.3.1"
