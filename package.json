@@ -43,8 +43,6 @@
     "truncation"
   ],
   "dependencies": {
-    "ember-browserify": "1.1.13",
-    "clamp-js": "^0.7.0",
     "ember-cli-babel": "^5.1.6",
     "ember-cli-htmlbars": "^1.0.3",
     "ember-cli-htmlbars-inline-precompile": "^0.3.1"

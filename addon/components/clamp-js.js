@@ -1,6 +1,5 @@
 import Ember from 'ember';
-import layout from '../templates/components/clamp-js';
-import $clamp from 'npm:clamp-js';
+import layout from '../templates/components/clamp-js';\
 
 /**
  * Clamp.js Component
