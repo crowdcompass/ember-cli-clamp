@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-clamp",
-  "version": "0.1.5",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.6",
+  "description": "ember-cli component addon for clamp.js",
   "directories": {
     "doc": "doc",
     "test": "tests"
