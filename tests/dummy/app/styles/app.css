@@ -1,0 +1,17 @@
+body {
+  margin: 30px;
+  font-family: sans-serif;
+}
+
+h3 {
+  margin: 1em 0 0;
+}
+
+code {
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+.example {
+  margin-top: 1em;
+}

@@ -1,5 +1,44 @@
-{{#clamp-js lines=2}}
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel placerat magna. Pellentesque accumsan lobortis aliquam. Vestibulum feugiat pellentesque nisi, nec fringilla felis bibendum non. Nulla quis vulputate sapien. Vivamus id nibh eu ipsum fermentum sollicitudin at vitae sapien. Cras a convallis turpis. Donec finibus mauris vel risus vulputate tempus. Vivamus nulla diam, porta quis tempus sed, dictum id felis. Praesent dignissim hendrerit facilisis. In scelerisque elit at nunc consectetur consectetur. Nulla facilisi. Vestibulum in orci nec diam consequat molestie non eu massa. Ut interdum vestibulum sem lobortis commodo. Aenean dictum, urna sit amet condimentum ornare, nisi enim ultricies lacus, sed placerat risus neque a tellus. Suspendisse non mauris quam.
+
+<h1>ember-cli-clamp Demo</h1>
+
+<h2>Without options (default number of lines is 2):</h2>
+
+<h3>Markup:</h3>
+<code>
+\{{#clamp-js}}
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel placerat magna. Pellentesque accumsan lobortis aliquam. Vestibulum feugiat pellentesque nisi, nec fringilla felis bibendum non. Nulla quis vulputate sapien. Vivamus id nibh eu ipsum fermentum sollicitudin at vitae sapien. Cras a convallis turpis. Donec finibus mauris vel risus vulputate tempus. Vivamus nulla diam, porta quis tempus sed, dictum id felis. Praesent dignissim hendrerit facilisis. In scelerisque elit at nunc consectetur.
+\{{/clamp-js}}
+</code>
+
+<h3>Result:</h3>
+{{#clamp-js class="example"}}
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel placerat magna. Pellentesque accumsan lobortis aliquam. Vestibulum feugiat pellentesque nisi, nec fringilla felis bibendum non. Nulla quis vulputate sapien. Vivamus id nibh eu ipsum fermentum sollicitudin at vitae sapien. Cras a convallis turpis. Donec finibus mauris vel risus vulputate tempus. Vivamus nulla diam, porta quis tempus sed, dictum id felis. Praesent dignissim hendrerit facilisis. In scelerisque elit at nunc consectetur.
 {{/clamp-js}}
 
-{{outlet}}
+<h2>With declared line number option:</h2>
+
+<h3>Markup:</h3>
+<code>
+\{{#clamp-js lines=3}}
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel placerat magna. Pellentesque accumsan lobortis aliquam. Vestibulum feugiat pellentesque nisi, nec fringilla felis bibendum non. Nulla quis vulputate sapien. Vivamus id nibh eu ipsum fermentum sollicitudin at vitae sapien. Cras a convallis turpis. Donec finibus mauris vel risus vulputate tempus. Vivamus nulla diam, porta quis tempus sed, dictum id felis. Praesent dignissim hendrerit facilisis. In scelerisque elit at nunc consectetur.
+\{{/clamp-js}}
+</code>
+
+<h3>Result:</h3>
+{{#clamp-js lines=3 class="example"}}
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel placerat magna. Pellentesque accumsan lobortis aliquam. Vestibulum feugiat pellentesque nisi, nec fringilla felis bibendum non. Nulla quis vulputate sapien. Vivamus id nibh eu ipsum fermentum sollicitudin at vitae sapien. Cras a convallis turpis. Donec finibus mauris vel risus vulputate tempus. Vivamus nulla diam, porta quis tempus sed, dictum id felis. Praesent dignissim hendrerit facilisis. In scelerisque elit at nunc consectetur.
+{{/clamp-js}}
+
+<h2>With declared height option:</h2>
+
+<h3>Markup:</h3>
+<code>
+\{{#clamp-js lines="100px"}}
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel placerat magna. Pellentesque accumsan lobortis aliquam. Vestibulum feugiat pellentesque nisi, nec fringilla felis bibendum non. Nulla quis vulputate sapien. Vivamus id nibh eu ipsum fermentum sollicitudin at vitae sapien. Cras a convallis turpis. Donec finibus mauris vel risus vulputate tempus. Vivamus nulla diam, porta quis tempus sed, dictum id felis. Praesent dignissim hendrerit facilisis. In scelerisque elit at nunc consectetur.
+\{{/clamp-js}}
+</code>
+
+<h3>Result:</h3>
+{{#clamp-js lines="100px" class="example"}}
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel placerat magna. Pellentesque accumsan lobortis aliquam. Vestibulum feugiat pellentesque nisi, nec fringilla felis bibendum non. Nulla quis vulputate sapien. Vivamus id nibh eu ipsum fermentum sollicitudin at vitae sapien. Cras a convallis turpis. Donec finibus mauris vel risus vulputate tempus. Vivamus nulla diam, porta quis tempus sed, dictum id felis. Praesent dignissim hendrerit facilisis. In scelerisque elit at nunc consectetur.
+{{/clamp-js}}

@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-clamp",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -11,7 +11,7 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/crowdcompass/ember-cli-clamp",
   "engines": {
     "node": ">= 0.10.0"
   },
