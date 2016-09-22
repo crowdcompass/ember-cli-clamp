@@ -5,8 +5,6 @@ module.exports = {
   name: 'ember-cli-clamp',
   included: function(app) {
     this._super.included(app);
-    this.app.import(
-      app.bowerDirectory + '/clamp-js/clamp.min.js'
-    );
+    app.import(app.bowerDirectory + '/clamp-js/clamp.js');
   }
 };
