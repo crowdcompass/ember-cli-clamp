@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-clamp",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "ember-cli component addon for clamp.js",
   "directories": {
     "doc": "doc",
@@ -16,7 +16,7 @@
     "node": ">= 0.10.0"
   },
   "author": "",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
     "ember-ajax": "0.7.1",
