@@ -13,17 +13,6 @@ export default Ember.Component.extend({
   clampDelay: 100,
 
   // Events
-
-  /**
-   * Stores the initial, unclamped value before render
-   *
-   * @function
-   * @returns {undefined}
-   */
-  willInsertElement: function() {
-    this.set('originalContent', this.get('element').innerHTML);
-  },
-
   /**
    * Initializes clamping on the nested content.
    *
@@ -31,6 +20,8 @@ export default Ember.Component.extend({
    * @returns {undefined}
    */
   didInsertElement: function() {
+    this.set('originalContent', this.get('element').innerHTML);
+
     this.setWidth();
 
     this.clamp();

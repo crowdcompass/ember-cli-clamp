@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-clamp",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "ember-cli component addon for clamp.js",
   "directories": {
     "doc": "doc",
